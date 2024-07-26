@@ -1,0 +1,13 @@
+//========================================================================================
+// Are you creating Services in AZURE or other CLOUD??
+// Rename your Tests add Services in C# with the next lines
+//========================================================================================
+
+string TestAddServices = "<NameOfService>" + DateTime.Now.ToString("yyyyMMddHHmmss");
+
+Console.WriteLine(TestAddServices);  // Result: <NameOfService>20240726170320
+
+//========================================================================================
+// Note: Replace <NameOfService> with the real name of Service. For Example: WebAppSupport
+//========================================================================================
+
